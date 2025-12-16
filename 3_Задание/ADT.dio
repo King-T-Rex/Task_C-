@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="JCZhlGuzz4Pc9JVLGLyJ" name="Страница — 1">
+        <mxGraphModel dx="942" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Square" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="200" width="150" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="- side: double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="30" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;span style=&quot;&quot;&gt;- x: double&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontColor=default;textShadow=0;labelBorderColor=none;labelBackgroundColor=none;" parent="2" vertex="1">
+                    <mxGeometry y="50" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="- y: double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="70" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="2" vertex="1">
+                    <mxGeometry y="90" width="150" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;+ Square(side: double,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 0); text-align: right;&quot;&gt;x: double = 0.0, y: double = 0.0)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="98" width="150" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="+ getSide(): double&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="150" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="+ setSide(side: double): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="170" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="+ getXY(): double&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="200" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="+ moveTo(x: double, y: double): void&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="220" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="+ getArea(): double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="260" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="+ getPerimeter(): double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="280" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="+ getPerimeter(): double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="300" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Point" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="320" width="140" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="- x: double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="27" vertex="1">
+                    <mxGeometry y="30" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="- y: double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="27" vertex="1">
+                    <mxGeometry y="50" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="27" vertex="1">
+                    <mxGeometry y="70" width="140" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="+ Point (x: double = 0.0, y: double = 0.0)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="27" vertex="1">
+                    <mxGeometry y="78" width="140" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="+ getX (): double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="27" vertex="1">
+                    <mxGeometry y="110" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="+ getY (): double" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="27" vertex="1">
+                    <mxGeometry y="130" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=none;startArrow=diamondThin;endFill=0;startFill=1;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;startSize=8;endSize=8;entryX=1.01;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="239" y="590" as="sourcePoint"/>
+                        <mxPoint x="160" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="Часть" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="570" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Целое" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="570" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="часть - целое&lt;div&gt;(композиция)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="145" y="590" width="100" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
